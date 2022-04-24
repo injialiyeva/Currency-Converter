@@ -28,10 +28,18 @@
           <div class="left-section">
             <p class="left-title">У меня есть</p>
             <div class="left-exc-btns">
-              <button class="rubl-left">RUB</button>
-              <button class="usd-left">USD</button>
-              <button class="euro-left">EUR</button>
-              <button class="gbp-left">GBP</button>
+              <button id="rubl-left" class="left-curr-button" value="rubl-left">
+                RUB
+              </button>
+              <button id="usd-left" class="left-curr-button" value="usd-left">
+                USD
+              </button>
+              <button id="euro-left" class="left-curr-button" value="euro-left">
+                EUR
+              </button>
+              <button id="gbp-left" class="left-curr-button" value="gbp-left">
+                GBP
+              </button>
             </div>
             <div class="left-curr-box">
               <input id="left-input" name="" type="number" />
@@ -41,10 +49,34 @@
           <div class="right-section">
             <p class="right-title">Хочу приобрести</p>
             <div class="right-exc-btns">
-              <button class="rubl-right">RUB</button>
-              <button class="usd-right">USD</button>
-              <button class="euro-right">EUR</button>
-              <button class="gbp-right">GBP</button>
+              <button
+                id="rubl-right"
+                class="right-curr-button"
+                value="rubl-right"
+              >
+                RUB
+              </button>
+              <button
+                id="usd-right"
+                class="right-curr-button"
+                value="usd-right"
+              >
+                USD
+              </button>
+              <button
+                id="euro-right"
+                class="right-curr-button"
+                value="euro-right"
+              >
+                EUR
+              </button>
+              <button
+                id="gbp-right"
+                class="right-curr-button"
+                value="gbp-right"
+              >
+                GBP
+              </button>
             </div>
             <div class="right-curr-box">
               <input id="right-input" type="number" name="" />
@@ -54,5 +86,6 @@
         </div>
       </div>
     </div>
+    <script src="/script.js"></script>
   </body>
 </html>

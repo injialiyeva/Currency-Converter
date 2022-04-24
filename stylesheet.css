@@ -180,7 +180,7 @@ h1 {
   height: 30px;
 }
 
-.rubl-left {
+#rubl-left {
   width: 65.06px;
   height: 28px;
   font-style: normal;
@@ -197,9 +197,9 @@ h1 {
   margin: -1px 0px 0px -0.2px;
 }
 
-.usd-left,
-.euro-left,
-.gbp-left {
+#usd-left,
+#euro-left,
+#gbp-left {
   width: 63.5px;
   height: 28px;
   font-style: normal;
@@ -215,7 +215,7 @@ h1 {
   margin: -1px 1.25px 1px -4px;
 }
 
-.gbp-left {
+#gbp-left {
   border-radius: 0px 3px 3px 0px;
 }
 
@@ -227,7 +227,7 @@ h1 {
   height: 30px;
 }
 
-.usd-right {
+#usd-right {
   width: 65.05px;
   height: 28px;
   font-style: normal;
@@ -243,9 +243,9 @@ h1 {
   margin: -1px 1.25px 1px -4px;
 }
 
-.rubl-right,
-.euro-right,
-.gbp-right {
+#rubl-right,
+#euro-right,
+#gbp-right {
   width: 63.5px;
   height: 28px;
   font-style: normal;
@@ -261,11 +261,11 @@ h1 {
   margin: -1px 1.25px 1px -4px;
 }
 
-.gbp-right {
+#gbp-right {
   border-radius: 0px 3px 3px 0px;
 }
 
-.rubl-right {
+#rubl-right {
   border-radius: 3px 0px 0px 3px;
   margin: -1px 0px 0px -0.2px;
 }
@@ -345,3 +345,5 @@ input::-webkit-inner-spin-button {
   align-items: center;
   color: #c6c6c6;
 }
+
+/* @MEDIA */
