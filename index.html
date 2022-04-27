@@ -28,13 +28,13 @@
           <div class="left-section">
             <p class="left-title">У меня есть</p>
             <div class="left-exc-btns" id="left-buttons">
-              <button id="rubl-left">RUB</button>
+              <button id="rubl-left" class="default">RUB</button>
               <button id="usd-left">USD</button>
               <button id="euro-left">EUR</button>
               <button id="gbp-left">GBP</button>
             </div>
             <div class="left-curr-box">
-              <input id="left-input" name="" type="number" />
+              <input id="left-input" name="from" type="text" />
               <div id="curr-rate-left"></div>
             </div>
           </div>
@@ -42,19 +42,19 @@
             <p class="right-title">Хочу приобрести</p>
             <div class="right-exc-btns" id="right-buttons">
               <button id="rubl-right">RUB</button>
-              <button id="usd-right">USD</button>
+              <button id="usd-right" class="default">USD</button>
               <button id="euro-right">EUR</button>
               <button id="gbp-right">GBP</button>
             </div>
             <div class="right-curr-box">
-              <input id="right-input" type="number" name="" />
+              <input id="right-input" type="text" name="to" readonly />
               <div id="curr-rate-right"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="https://unpkg.com/imask"></script>
     <script src="/script.js"></script>
-    <script src="/scriptold.js"></script>
   </body>
 </html>

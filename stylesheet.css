@@ -13,7 +13,7 @@ body {
 .container {
   width: 1152px;
   height: 700px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
 }
 
@@ -323,9 +323,10 @@ input::-webkit-inner-spin-button {
 }
 
 #curr-rate-left {
-  width: 119px;
+  /* width: auto; */
   height: 28px;
-  margin: 0px 124px 5px 16px;
+  margin-left: 16px;
+  /* margin: 0px 124px 5px 16px; */
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -336,9 +337,10 @@ input::-webkit-inner-spin-button {
 }
 
 #curr-rate-right {
-  width: 119px;
+  /* width: auto; */
   height: 28px;
-  margin: 0px 124px 5px 16px;
+  margin-left: 16px;
+  /* margin: 0px 124px 5px 16px; */
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -348,4 +350,7 @@ input::-webkit-inner-spin-button {
   color: #c6c6c6;
 }
 
-/* @MEDIA */
+.default {
+  background-color: #833ae0 !important;
+  color: white !important;
+}
