@@ -31,7 +31,7 @@ function eventListeners() {
 }
 
 function exchangeCurrency() {
-  currency.changeAmount(input.value); //?
+  currency.changeAmount(input.value); 
   currency
     .exchange()
     .then((result) => {
@@ -74,8 +74,11 @@ class Currency {
     return new Promise((resolve, reject) => {
       fetch(this.url + this.leftCurrency + "&symbols" + this.rightCurrency)
         .then((response) => {
-          return response.json();
-        })
+          if(response.status == 200){
+            return response.json();
+
+          }
+                  })
         .then((data) => {
           const rate = data.rates[this.rightCurrency];
           if (this.leftCurrency !== this.rightCurrency) {
@@ -98,7 +101,7 @@ class Currency {
             excResult.output.value = "";
           }
         })
-        .catch((err) => reject(err));
+        .catch((err) => alert("Sehv"));
     });
   }
 
