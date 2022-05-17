@@ -10,4 +10,4 @@ Açıq API-dən aktual məlumatları əldə edərək onlayn valyuta çeviricisi 
 
 Kalkulyatorun idarəetmə elementlərindən istifadə edərək istifadəçi iki valyuta və konvertasiya ediləcək məbləği seçmək imkanı əldə edir. Seçdikdən sonra kalkulyator çarpaz kursu və yekun məbləği göstərir.
 
-Netlify link: 
+Netlify link: https://currency-converter-web.netlify.app/
