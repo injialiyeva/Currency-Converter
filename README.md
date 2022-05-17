@@ -1,6 +1,10 @@
 # Currency-Converter
 
-Algoritmika BootCamp 2022 - Veb Tərtibatçılıq - Modul 3. "Valyuta konvertoru tərtibatı" layihəsi
+Algoritmika BootCamp 2022 - Veb Tərtibatçılıq 
+
+Modul 3: Müştəri-Server Əlaqəsi
+
+Layihə: "Valyuta konvertoru tərtibatı" layihəsi
 
 Açıq API-dən aktual məlumatları əldə edərək onlayn valyuta çeviricisi tərtib etmək.
 
