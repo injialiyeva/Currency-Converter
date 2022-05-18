@@ -1,13 +1,16 @@
-# Currency-Converter
+# Currency Converter
 
-Algoritmika BootCamp 2022 - Veb Tərtibatçılıq 
+![image](https://user-images.githubusercontent.com/70857147/169036281-00309bab-0bfd-49a6-a247-aefbdc972c96.png)
 
-Modul 3: Müştəri-Server Əlaqəsi
+- User stories:
 
-Layihə: "Valyuta konvertoru tərtibatı" layihəsi
+    - 
 
-Açıq API-dən aktual məlumatları əldə edərək onlayn valyuta çeviricisi tərtib etmək.
-
-Kalkulyatorun idarəetmə elementlərindən istifadə edərək istifadəçi iki valyuta və konvertasiya ediləcək məbləği seçmək imkanı əldə edir. Seçdikdən sonra kalkulyator çarpaz kursu və yekun məbləği göstərir.
-
-Netlify link: https://currency-converter-web.netlify.app/
+- Stack:
+    - HTML 
+    - CSS
+    - JavaScript
+    - REST API
+    - Figma
+    
+- [Live Preview](https://currency-converter-web.netlify.app/)
